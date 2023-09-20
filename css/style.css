@@ -81,6 +81,12 @@ a:focus {
           box-shadow: none;
 }
 
+.news_section {
+  background-color: #ef8157;
+  color: white;
+  padding: 10px 0 0 0;
+}
+
 .navbar-brand>span>img {
   mix-blend-mode: darken;
   border: 1px solid seagreen;
