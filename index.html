@@ -28,28 +28,29 @@
 
   <!-- Semantic UI library -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" />
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  
 </head>
 
 <body>
 
-  <div class="ui modal">
-    <i class="close icon"></i>
-    <div class="header">
-      Modal Title
-    </div>
-    <div class="image content">
-      <div class="image">
-        An image can appear on left or an icon
+  <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Notice</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      <div class="description">
-        A description can appear on the right
-      </div>
-    </div>
-    <div class="actions">
-      <div class="ui button">Cancel</div>
-      <div class="ui button">OK</div>
     </div>
   </div>
 
@@ -418,9 +419,6 @@
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-  <!-- End Google Map -->
 
 </body>
 
