@@ -5,7 +5,7 @@ var param = {
 }
 
 async function getData() {
-    const popup = await fetch('http://localhost:3000/api/GetGeneralSettings', {
+    const popup = await fetch('https://physicsmarketing.online/api/GetGeneralSettings', {
         method: 'POST',
             headers: {
                 Accept: 'application/json',
@@ -24,7 +24,7 @@ async function getData() {
             "type": 'web_news'
         }
     }
-    const news = await fetch('http://localhost:3000/api/GetGeneralSettings', {
+    const news = await fetch('https://physicsmarketing.online/api/GetGeneralSettings', {
         method: 'POST',
             headers: {
                 Accept: 'application/json',
