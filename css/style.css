@@ -83,8 +83,10 @@ a:focus {
 
 .news_section {
   background-color: #ef8157;
-  color: white;
+  color: white; 
+  font-size: larger;
   padding: 10px 0 0 0;
+  height: 40px;
 }
 
 .navbar-brand>span>img {
